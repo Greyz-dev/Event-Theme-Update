@@ -1,0 +1,47 @@
+:root { font-family: 'Inter', sans-serif; }
+  @supports (font-variation-settings: normal) {
+    :root { font-family: 'Inter var', sans-serif; }
+  }
+
+strong {
+    color: #1A202C;
+}
+
+h1 {
+    font-size: 3.75rem;
+    line-height: 1;
+    color: #1A202C;
+}
+
+h2 {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    color: #1A202C;
+}
+
+h4 {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #1A202C;
+}
+
+hr.solid {
+    border-top: 1px solid #E2E8F0;
+}
+
+p {
+    line-height: 27px;
+    color: #4A5568;
+}
+
+@media (max-width: 768px) {
+    .desktop-header {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) {
+    .mobile-header {
+        display: none;
+    }
+}
